@@ -1,0 +1,10 @@
+# Site Settings
+title: Crew
+email: boozelclark@gmail.com
+description: ""
+base-url: ""
+url: "http://localhost:4000"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

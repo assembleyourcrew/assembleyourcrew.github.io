@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+{% include head.html %}
+
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+        {% include header.html %}
+
+				<!-- Main -->
+					<article id="main">
+						<header class="{{ page.banner }}">
+							<h2>{{ page.title }}</h2>
+							<p>{{ page.subtitle }}</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+                {{content}}
+
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+        {% include footer.html %}
+
+			</div>
+
+		<!-- Scripts -->
+    {% include scripts.html %}
+
+	</body>
+</html>
