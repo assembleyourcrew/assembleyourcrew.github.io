@@ -1,9 +1,9 @@
 # Site Settings
 title: Crew
 email: boozelclark@gmail.com
-description: ""
+description: " "
 base-url: ""
-url: "http://localhost:4000"
+url: "http://assembleyourcrew.com"
 
 # Build settings
 markdown: kramdown
